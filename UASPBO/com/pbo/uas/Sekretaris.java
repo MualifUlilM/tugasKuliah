@@ -3,9 +3,9 @@ package com.pbo.uas;
 public class Sekretaris extends Pegawai{
     double upahLembur;
 
-    public void setData(String nama, String jabatan, double gaji, double upahLembur) {
+    public void setData(String nama, String jabatan, double upahLembur) {
         // TODO Auto-generated method stub
-        super.setData(nama, jabatan, gaji);
+        super.setData(nama, jabatan);
         this.upahLembur = upahLembur;
     }
 

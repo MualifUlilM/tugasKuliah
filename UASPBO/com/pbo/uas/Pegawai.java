@@ -2,12 +2,11 @@ package com.pbo.uas;
 
 public class Pegawai{
     protected String nama, jabatan;
-    protected double gaji;
+    protected double gaji = 2000000;
 
-    public void setData(String nama, String jabatan, double gaji){
+    public void setData(String nama, String jabatan){
         this.nama = nama;
         this.jabatan = jabatan;
-        this.gaji = gaji;
     }
 
     double getGaji(){

@@ -3,9 +3,9 @@ package com.pbo.uas;
 public class Executive extends Pegawai{
 
     double gajiManager;
-    public void setData(String nama, String jabatan, double gaji, double gajiManager) {
+    public void setData(String nama, String jabatan, double gajiManager) {
         // TODO Auto-generated method stub
-        super.setData(nama, jabatan, gaji);
+        super.setData(nama, jabatan);
         this.gajiManager = gajiManager;
     }
 

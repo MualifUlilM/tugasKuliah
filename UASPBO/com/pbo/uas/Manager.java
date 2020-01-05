@@ -4,8 +4,8 @@ public class Manager extends Pegawai{
     double tunjangan;
     
     // @Overloading
-    public void setData(String nama, String jabatan, double gaji, double tunjangan) {
-        super.setData(nama, jabatan, gaji);
+    public void setData(String nama, String jabatan, double tunjangan) {
+        super.setData(nama, jabatan);
         this.tunjangan = tunjangan;
     }
     public double getGaji(){
