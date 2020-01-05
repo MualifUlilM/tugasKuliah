@@ -1,6 +1,6 @@
 package com.pbo.uas;
 
-class Pegawai{
+public class Pegawai{
     protected String nama, jabatan;
     protected double gaji;
 
@@ -14,7 +14,7 @@ class Pegawai{
         return gaji;
     }
 
-    void getInfo(){
+    public void getInfo(){
         System.out.println("Nama : "+ nama);
         System.out.println("Jabatan : "+jabatan);
         System.out.println("Gaji : "+gaji);

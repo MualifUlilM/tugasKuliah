@@ -1,6 +1,6 @@
 package com.pbo.uas;
 
-class Executive extends Pegawai{
+public class Executive extends Pegawai{
 
     double gajiManager;
     public void setData(String nama, String jabatan, double gaji, double gajiManager) {
@@ -16,7 +16,7 @@ class Executive extends Pegawai{
     }
 
     @Override
-    void getInfo() {
+    public void getInfo() {
         // TODO Auto-generated method stub
         super.getInfo();
         System.out.println("Total Gaji : "+((0.5*gajiManager)+gaji));

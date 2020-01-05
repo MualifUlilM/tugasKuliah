@@ -1,6 +1,6 @@
 package com.pbo.uas;
 
-class Sekretaris extends Pegawai{
+public class Sekretaris extends Pegawai{
     double upahLembur;
 
     public void setData(String nama, String jabatan, double gaji, double upahLembur) {
@@ -13,10 +13,8 @@ class Sekretaris extends Pegawai{
         return gaji+upahLembur;
     }
 
-    void getInfo(){
-        System.out.println("Nama : "+ nama);
-        System.out.println("Jabatan : "+jabatan);
+    public void getInfo(){
+        super.getInfo();
         System.out.println("Upah Lembur : "+upahLembur);
-        System.out.println("Gaji : "+getGaji());
     }
 }

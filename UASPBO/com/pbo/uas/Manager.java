@@ -1,6 +1,6 @@
 package com.pbo.uas;
 
-class Manager extends Pegawai{
+public class Manager extends Pegawai{
     double tunjangan;
     
     // @Overloading
@@ -8,12 +8,12 @@ class Manager extends Pegawai{
         super.setData(nama, jabatan, gaji);
         this.tunjangan = tunjangan;
     }
-    double getGaji(){
+    public double getGaji(){
         return (gaji*2)+tunjangan;
     }
 
     @Override
-    void getInfo() {
+    public void getInfo() {
         // TODO Auto-generated method stub
         super.getInfo();
         System.out.println("Tunjangan : "+tunjangan);

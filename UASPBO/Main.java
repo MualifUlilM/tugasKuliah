@@ -5,10 +5,10 @@ Mata Kuliah : Pemrograman Berorientasi Objek(PBO);
 Ujian : UAS
 */
 
-package com.pbo.uas;
+import com.pbo.uas.*;
 
-class main{
-    public static void main(String[] args){
+class main {
+    public static void main(String[] args) {
         Pegawai pegawai = new Pegawai();
         pegawai.setData("Ulil", "Staff umum", 2000000);
         pegawai.getInfo();
