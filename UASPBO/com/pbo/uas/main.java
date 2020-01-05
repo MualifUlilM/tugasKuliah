@@ -1,3 +1,10 @@
+/*
+Nama : Mualif Ulil Misbakh;
+Nim : 18.01.53.0009;
+Mata Kuliah : Pemrograman Berorientasi Objek(PBO);
+Ujian : UAS
+*/
+
 package com.pbo.uas;
 
 class main{
